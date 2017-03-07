@@ -7,7 +7,7 @@
 
 # Definindo as variáveis
 
-SOURCE      = utfpr-tcc
+SOURCE      = pucminas-tcc
 LATEX       = pdflatex
 LATEXMK     = latexmk
 BIBTEX      = bibtex
