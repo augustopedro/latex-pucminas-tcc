@@ -12,16 +12,18 @@
 %% Further information about abnTeX2 are available on http://www.abntex.net.br/
 %%------------------------------------------------------------------------------
 
-
 % -----------------------------------------------------------------------------
-% Universidade Tecnológica Federal do Paraná - UTFPR
+% Pontifícia Universidade Católica de Minas Gerais - PUC Minas
 %
-% Customização da classe abnTeX2 (http://www.abntex.net.br/) para as normas da UTFPR
+% Customização da classe abnTeX2 (http://www.abntex.net.br/) para as normas da PUC Minas
 %
-% Projeto: http://tcc.tsi.gp.utfpr.edu.br/paginas/modelos-latex-da-utfpr
+% Baseado na classe abnTeX2 da Universidade Federal Tecnológica do Paraná
+% Adaptado para seguir as regras de normalização da PUC Minas <http://portal.pucminas.br/biblioteca/>
 %
-% Autores: Diego Marczal
-% 	       Michael Vornes <https://github.com/mvornes>
+% Autores originais: 
+%        Diego Marczal
+%        Michael Vornes <https://github.com/mvornes>
+%
 %
 %------------------------------------------------------------------------------
 % Codificação: UTF-8
@@ -29,7 +31,7 @@
 % -----------------------------------------------------------------------------
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{configuracoes/utfpr-abntex2}[2016/07/07 v1.0]
+\ProvidesClass{configuracoes/pucminas-abntex2}[2016/07/07 v1.0]
 
 % Repassa os parâmetros ao abntex2
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{abntex2}}
@@ -271,17 +273,17 @@
     \begin{capa}
         \begin{center}
 		\begin{SingleSpacing}
-            		\large\MakeUppercase{\imprimirinstituicao} \\
+            		\large{\imprimirinstituicao} \\
 	    		\abntex@ifnotempty{\imprimirdepartamento}
             		{
-                		\MakeUppercase{\imprimirdepartamento} \\
+                		{\imprimirdepartamento} \\
             		}
-           		\large\MakeUppercase{\imprimirprograma} \\
+           		\large{\imprimirprograma} \\
 		\end{SingleSpacing}
         \end{center}
         \vspace{60pt}
 	\begin{center}
-		\large\MakeUppercase{\imprimirautor}\\
+		\large{\imprimirautor}\\
 	\end{center}
 	\vspace{120pt}
         \begin{center}
@@ -293,13 +295,13 @@
         \end{center}
 	\vspace{120pt}
 	\begin{center}
-		\large\MakeUppercase{\imprimirprojeto}
+		\large{\imprimirprojeto}
 	\end{center}
 	\vfill
         \begin{center}
 		\begin{SingleSpacing}
-            		\large\MakeUppercase{\imprimirlocal}\\
-            		\large\MakeUppercase{\imprimirdata}
+            		\large{\imprimirlocal}\\
+            		\large{\imprimirdata}
 		\end{SingleSpacing}
     	\end{center}
 
@@ -316,7 +318,7 @@
 {%
     \setcounter{page}{2}
     \begin{center}
-        \large\MakeUppercase{\imprimirautor}\\
+        \large{\imprimirautor}\\
     \end{center}
 
     \vspace*{96pt}
@@ -361,8 +363,8 @@
 
     \begin{center}
 	\begin{SingleSpacing}
-            \large\MakeUppercase{\imprimirlocal}\\
-            \large\MakeUppercase{\imprimirdata}
+            \large{\imprimirlocal}\\
+            \large{\imprimirdata}
 	\end{SingleSpacing}
     \end{center}
 }
