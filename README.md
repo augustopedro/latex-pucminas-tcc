@@ -1,15 +1,13 @@
-# Template LaTeX para Trabalho de Conclusão de Curso da UTFPR (UTFPR-GP/Curso de TSI) 
-
-Site: http://tcc.tsi.gp.utfpr.edu.br/paginas/modelos-latex-da-utfpr
+# Template LaTeX para Trabalho de Conclusão de Curso da PUC Minas 
 
 Customização da classe abnTeX2: https://github.com/abntex/abntex2
 
 Para instalar a versão mais recente do abnTeX2, siga as instruções em: https://github.com/abntex/abntex2/wiki/InstalacaoLinux
 
 # Editar
-No arquivo principal "utfpr-tcc.tex" estão todas as inclusões das partes do trabalho, caso não queira inserir algum dos elementos basta excluir a linha que contém o comando \include do arquivo que se deseja excluir.
+No arquivo principal "pucminas-tcc.tex" estão todas as inclusões das partes do trabalho, caso não queira inserir algum dos elementos basta excluir a linha que contém o comando \include do arquivo que se deseja excluir.
 
-Caso queira incluir mais capítulos dentro da pasta "estrutura/textuais/desenvolvimento" basta criar o arquivo .tex dentro da pasta e incluí-lo via comando \include no arquivo principal "utfpr-tcc.tex".
+Caso queira incluir mais capítulos dentro da pasta "estrutura/textuais/desenvolvimento" basta criar o arquivo .tex dentro da pasta e incluí-lo via comando \include no arquivo principal "pucminas-tcc.tex".
 
 Utilize um editor de textos de sua preferência (recomendável ATOM ou GEDIT) para editar os arquivos .tex
 Todas as seções do trabalho são auto-explicativas bastando seguir as orientações de cada arquivo.
