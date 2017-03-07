@@ -3,7 +3,7 @@
     alf,
     abnt-emphasize=bf,
     bibjustif,
-    recuo=0cm,
+    recuo=0.0cm,
     abnt-url-package=url,       % Utiliza o pacote url
     abnt-refinfo=yes,           % Utiliza o estilo bibliográfico abnt-refinfo
     abnt-etal-cite=3,
@@ -27,10 +27,7 @@
 \usepackage{verbatim}                                       % Permite apresentar texto tal como escrito no documento, ainda que sejam comandos Latex
 \usepackage{amsfonts, amssymb, amsmath}                     % Fontes e símbolos matemáticos
 \usepackage[algoruled, portuguese]{algorithm2e}             % Permite escrever algoritmos em português
-%\usepackage[scaled]{helvet}                                % Usa a fonte Helvetica
-\usepackage{times}                                          % Usa a fonte Times
-%\usepackage{palatino}                                      % Usa a fonte Palatino
-%\usepackage{lmodern}                                       % Usa a fonte Latin Modern
+\usepackage{pslatex}                                        % Usa a fonte Times New Roman
 \usepackage[bottom]{footmisc}                               % Mantém as notas de rodapé sempre na mesma posição
 \usepackage{ae, aecompl}                                    % Fontes de alta qualidade
 \usepackage{latexsym}                                       % Símbolos matemáticos
@@ -39,6 +36,3 @@
 %\usepackage{scalefnt}                                      % Permite redimensionar tamanho da fonte
 %\usepackage{subfig}                                        % Posicionamento de figuras
 %\usepackage{upgreek}                                       % Fonte letras gregas
-
-% Redefine a fonte para uma fonte similar a Arial (fonte Helvetica)
-\renewcommand*\familydefault{\sfdefault}
