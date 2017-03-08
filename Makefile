@@ -1,8 +1,7 @@
 #----------------------------------------------------------------------------
-# Universidade Tecnológica Federal do Paraná - UTFPR
-# Makefile da Customização da Classe abnTeX2 para as normas da UTFPR
+# Pontifícia Universidade Católica de Minas Gerais - PUC Minas
+# Makefile da Customização da Classe abnTeX2 para as normas da PUC Minas
 #
-# Projeto: http://tcc.tsi.gp.utfpr.edu.br/paginas/modelos-latex-da-utfpr
 #-----------------------------------------------------------------------------
 
 # Definindo as variáveis
